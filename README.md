@@ -3,7 +3,7 @@
 ## Features
 1. Customers can request rides 
 2. Customers can see their rides accepted in real-time
-3. Drivers can see customers requesting a ride
+3. Drivers can see a customer's requested ride
 4. Customer's ride request expires if no driver is available within a minute
 5. When a driver accepts a ride, another driver cannot accept same ride
 
