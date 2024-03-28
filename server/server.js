@@ -16,11 +16,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/sender", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/sender/sender.html"));
+  res.sendFile(path.join(__dirname, "../client/build/sender.html"));
 });
 
 app.get("/driver", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/driver/driver.html"));
+  res.sendFile(path.join(__dirname, "../client/build/driver.html"));
 });
 
 const orderingApp = new OrderingApp();
